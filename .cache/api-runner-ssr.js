@@ -12,7 +12,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Karen Ka","short_name":"Karen Ka","start_url":"/","background_color":"#ffffff","theme_color":"#000000","display":"minimal-ui","icon":"src/content/favicon.png"},
+      options: {"plugins":[],"name":"CS1300 Student","short_name":"CS1300 Student","start_url":"/","background_color":"#ffffff","theme_color":"#000000","display":"minimal-ui","icon":"src/content/favicon.png"},
     },{
       plugin: require('/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx",".md"],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":1000,"quality":80}}]},
