@@ -161,35 +161,35 @@ export const pageQuery = graphql`
             title
             sb1 {
               childImageSharp {
-                fluid(maxWidth: 400, quality: 90) {
+                fluid(maxWidth: 800, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
             sb2 {
               childImageSharp {
-                fluid(maxWidth: 400, quality: 90) {
+                fluid(maxWidth: 800, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
             lax {
               childImageSharp {
-                fluid(maxWidth: 400, quality: 90) {
+                fluid(maxWidth: 800, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
             busy {
               childImageSharp {
-                fluid(maxWidth: 400, quality: 90) {
+                fluid(maxWidth: 800, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
             interface {
               childImageSharp {
-                fluid(maxWidth: 400, quality: 90) {
+                fluid(maxWidth: 800, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }
