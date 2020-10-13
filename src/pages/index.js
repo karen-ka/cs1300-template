@@ -101,6 +101,7 @@ export const pageQuery = graphql`
           category
           emoji
           external
+          internal
           github
           screenshot {
             childImageSharp {

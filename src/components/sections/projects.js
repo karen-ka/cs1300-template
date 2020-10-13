@@ -294,7 +294,7 @@ const Projects = ({ content }) => {
                     <div className="title">{frontmatter.title}</div>
                     <MDXRenderer>{body}</MDXRenderer>
                     <div className="learnmore">
-                    <Link className="inlink" to='/persona' rel="nofollow noopener noreferrer">
+                    <Link className="inlink" to={frontmatter.internal} rel="nofollow noopener noreferrer">
                       <u>Learn more</u>
                     </Link>
                     </div>
