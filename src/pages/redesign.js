@@ -69,7 +69,7 @@ const Redesign = ({ data }) => {
         <StyledContentWrapper>
           <h1>{frontmatter.title}</h1>
           <h2>Background</h2>
-          <p>With the advent of new devices and surfaces, it is increasingly important to prioritize responsive website design. A responsive website will look great on any screen size and helps maintain a consistent user experience. In this project, I explore the the process of creating a responsive redesign from start to finish.</p>
+          <p>With the advent of new devices and surfaces, it is increasingly important to prioritize responsive website design. A responsive website will look great on any screen size and helps maintain a consistent user experience. In this project, I explore the process of creating a responsive redesign from start to finish.</p>
 
           <h2>The Website</h2>
           <p>I decided to redesign Brown's MyMeal website, which is publicly accessible <a href="http://mymeal.brown.edu/NetNutrition/1#"><Underlining color="secondary" hoverColor="secondary">here</Underlining></a>. A screenshot of the home page is provided below.</p>
@@ -81,24 +81,28 @@ const Redesign = ({ data }) => {
 
         <h2>Usability Analysis</h2>
 
-        <p>I first conducted an initial analysis by annotating the interfaces (sample annotations shown below).</p>
+        <p>I first conducted an initial analysis by annotating the interfaces and workflow.</p>
 
+        <h3>Home Page</h3>
         <Img
             className="annotations"
             fluid={frontmatter.markup1.childImageSharp.fluid}
         />
-        {/* <Img
-            className="screenshot"
+        <h3>After selecting a cafeteria</h3>
+        <Img
+            className="annotations"
             fluid={frontmatter.markup2.childImageSharp.fluid}
-        /> */}
+        />
+        <h3>After selecting a menu type</h3>
         <Img
             className="annotations"
             fluid={frontmatter.markup3.childImageSharp.fluid}
         />
-        {/* <Img
-            className="screenshot"
+        <h3>Meal selection</h3>
+        <Img
+            className="annotations"
             fluid={frontmatter.markup4.childImageSharp.fluid}
-        /> */}
+        />
 
         <p>From careful observation of the site, I came to the following conclusions:</p>
 
@@ -127,7 +131,7 @@ const Redesign = ({ data }) => {
 
         These issues brought up by WAVE were reflected in the screen reader test I ran on the site. The screen reader failed to identify the basic description of the site and instead began rattling off the allergens immediately, which didn't make any sense without context.
         <h2>Visual Redesign</h2>
-<p>I completely reimaged the site, with a few notable new features:</p>
+<p>I completely reimagined the site, with a few notable new features:</p>
 
 <p>In my redesign, I focused on the following design principles:</p>
 <ul>
