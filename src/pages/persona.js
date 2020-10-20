@@ -153,7 +153,7 @@ export default Persona
 
 export const pageQuery = graphql`
   {
-    persona: allMdx(filter: { fileAbsolutePath: { regex: "/persona/" } }) {
+    persona: allMdx(filter: { fileAbsolutePath: { regex: "/personas/" } }) {
       edges {
         node {
           body

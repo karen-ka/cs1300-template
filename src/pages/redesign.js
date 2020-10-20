@@ -55,7 +55,6 @@ const StyledContentWrapper = styled(ContentWrapper)`
     margin-bottom: 0.5rem;
     }
     .ui {
-        max-width: 50%;
         margin: auto;
     }
 `
