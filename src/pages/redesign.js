@@ -171,7 +171,8 @@ const Redesign = ({ data }) => {
 
           <h2>Takeaways</h2>
           <ul>
-              <li>The power of flexbox!</li>
+            <li>The importance of web accessibility and how issues can be fixed by adding ARIA attributes.</li>
+            <li>The power of flexbox :)</li>
           </ul>
               <center><Link className="inlink" to='/#projects' rel="nofollow noopener noreferrer" align='center'>
                       <u>Back to projects</u>
