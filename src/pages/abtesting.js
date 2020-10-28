@@ -71,13 +71,10 @@ const Testing = ({ data }) => {
           <h2>Background</h2>
           <p>A/B Testing is a powerful technique to compare versions of a webpage to see which performs better. It can select variations that are more effective and will improve user engagement.</p>
 
-          <h2>The Experiment</h2>
+          <h2>Experiment</h2>
           <p>I created two versions of a simple shopping page, which can be viewed <a href="https://stormy-mountain-37929.herokuapp.com/"><Underlining color="secondary" hoverColor="secondary">here</Underlining></a>.</p>
 
-
-        <h2>Results</h2>
-
-        <p>I created an infographic of the results below.</p>
+        <p>An infographic of the process and results is shown below.</p>
 
         <Img
             className="annotations"
