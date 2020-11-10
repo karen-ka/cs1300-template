@@ -80,7 +80,7 @@ const Iterative = ({ data }) => {
 
             <iframe class="figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5012IXgdeUDbCAdjfk780t%2FIterative-Design-Sketches" allowfullscreen></iframe>
 
-        <p>After coming up with the pencil sketches, we got together to combine our ideas and come up with a final wireframe. Below is the result.</p>
+        <p>After coming up with the pencil sketches, we got together to combine our ideas and create a final wireframe - shown below.</p>
 
         <Img
             className="annotations"
@@ -101,17 +101,17 @@ const Iterative = ({ data }) => {
         <ul>
             <li>Remove underlines on elements that are not clickable</li>
             <li>Have the name of the site in more places</li>
-            <li>Use a primary call to action color</li>
+            <li>Use a primary call-to-action color</li>
             <li>Make it easier for a user to book a game</li>
         </ul>
 
-        <p>Thus, with this feedback in mind, we came up with another set of mockups. Here is an example of a before-and-after change - notice how we bumped up the hierarchy of the "Book Now" call-to-action, and added space for more information about the game:</p>
+        <p>Using this feedback, we came up with another set of mockups. Here is an example of a change we made - notice how we bumped up the hierarchy of the "Book Now" call-to-action, and rearranged sections to add more information about the game:</p>
         <Img
             className="annotations"
             fluid={frontmatter.changes1.childImageSharp.fluid}
         />
 
-        <p>The final prototype is shown below.</p>
+        <p>The improved prototype is shown below.</p>
         <iframe class="figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDfjXAp0tvCbh9EX3XJ32bl%2FIterative-Design-Final-Ver-DnD%3Fnode-id%3D20%253A298%26scaling%3Dscale-down" allowfullscreen></iframe>
 
 <h2>User Testing</h2>
@@ -125,7 +125,6 @@ const Iterative = ({ data }) => {
 <li>Book the game (no need to type anything into the form fields).</li>
 <li>Submit your order.</li>
 </ol>
-
 
 <p><b>Post-testing Questions</b></p>
 <ol>
@@ -141,7 +140,7 @@ const Iterative = ({ data }) => {
 <li>Log into the website.</li>
 <ul><li>All users had no issue with this.</li></ul>
 <li>Find a game to book.</li>
-<ul><li>Users had issues finding a game to book. They expected the host page to have a "Book Now" option.</li>
+<ul><li>Some users had issues finding a game to book. They expected the host page to have a "Book Now" option. On a scale of 1-10 (1 being easy and 10 being very difficult), scores ranged from 1 to 9.</li>
 </ul>
 <li>Book the game (no need to type anything into the form fields).</li>
 <ul><li>All users had no issue with this.</li></ul>
@@ -149,13 +148,32 @@ const Iterative = ({ data }) => {
 <ul><li>All users had no issue with this.</li></ul>
 </ol>
 
-<p>And here is an overall summary of the answers to our post-testing questions:</p>
+<p>Here's a summary of the answers to our post-testing questions, as well as how they lined up with our expectations:</p>
 <ul>
     <li>Overall, users enjoyed the overall design of the site, especially the landing page.</li>
+        <ul>
+            <li>We did expect gamers to find the site aesthetic favorable (although we're not sure if our testers happened to be gamers). The clean look and dark mode can be found in other commonly used applications that our target demographic use such as Discord.</li>
+        </ul>
     <li>Sources of frustration include being redirected to other pages when wanting to book a game immediately - for example, attempting to book a suggested host, and then being directed to the Find Game page.</li>
-    <li>Users had mixed difficulty in booking a game.</li>
+        <ul>
+            <li>This was somewhat expected. We got similar feedback from Crit Studio and attempted to streamline the number of redirects, and from this feedback it was clear that we needed to streamline one more workflow. </li>
+        </ul>
+    <li>Users had mixed difficulty in booking a game, as they expected the option to be available on a host's page.</li>
+        <ul>
+            <li>This was unexpected, as we thought having it on the search results and game info page would be enough. In hindsight, it does make sense for a host page to have a list of games they are hosting as well as a "Book Now" button for them.</li>
+        </ul>
     <li>Suggested features include adding a "Play" tab on the landing page to show what games are available.</li>
 </ul>
+
+<p>From these results, we came up with several areas of improvement:</p>
+<li>On a host's page, adding a list of games the specific host is hosting along with “Book Now” options to streamline workflow for booking a game.</li>
+<li>Add a confirmation page after booking a game.</li>
+<li>Upcoming games should show the host's name for further clarity.</li>
+
+<ul></ul>
+
+
+
 {/* <ol>
 <li>What frustrated you most about this site?</li>
 <ul><li>User A wanted confirmation of successful booking.</li>
