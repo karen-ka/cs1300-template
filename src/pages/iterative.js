@@ -57,6 +57,10 @@ const StyledContentWrapper = styled(ContentWrapper)`
     .ui {
         margin: auto;
     }
+
+    .figma {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
 `
 
 const Iterative = ({ data }) => {
@@ -69,25 +73,31 @@ const Iterative = ({ data }) => {
         <StyledContentWrapper>
           <h1>{frontmatter.title}</h1>
           <h2>Background</h2>
-            <p>Iterative design is a powerful process involving prototyping, testing, analyzing, and refining the product. We wanted to put this into practice by designing an interface for Y-combinator startup StartPlaying.Games, which aims to be an online marketplace for tabletop players to find games and/or game hosts.</p>
+            <p>Iterative design is a powerful process involving prototyping, testing, analyzing, and refining the product. We wanted to put this into practice by designing an interface for Y-combinator startup <a href="https://startplaying.games/"><Underlining color="secondary" hoverColor="secondary">StartPlaying.Games</Underlining></a>, which aims to be an online marketplace for tabletop players to find games and/or game hosts.</p>
 
           <h2>Sketching and Wireframing</h2>
-            <p>After getting acquainted with the startup's purpose, the first step was to create pencil sketches of main pages that would be required. Each member of our group came up with our own vision of what the site would look like.</p>
+            <p>After getting acquainted with the startup's purpose, the first step was to create pencil sketches of main pages that would be required. Each member of our group came up with our own vision of what the site would look like and created a set of sketches.</p>
 
-        <p>We've selected one page to show below, but all of the sketches can be viewed here.</p>
+            <iframe class="figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5012IXgdeUDbCAdjfk780t%2FIterative-Design-Sketches" allowfullscreen></iframe>
+
+        <p>After coming up with the pencil sketches, we got together to combine our ideas and come up with a final wireframe. Below is the result.</p>
 
         <Img
             className="annotations"
-            fluid={frontmatter.interface.childImageSharp.fluid}
+            fluid={frontmatter.wireframe1.childImageSharp.fluid}
         />
 
-        <p>After coming up with the pencil sketches, we got together to combine our ideas and come up with a final wireframe. Below is the result.</p>
+
+<Img
+            className="annotations"
+            fluid={frontmatter.wireframe2.childImageSharp.fluid}
+        />
 
         <h2>Mockups</h2>
 
         <p>With our lo-fi prototype in hand, we were then ready to create a hi-fi mockup of the site. For the visual aesthetics, we envisioned a sleek design with a color palette comfortable among gamers. Thus, we primarily developed in dark mode, and used a single font throughout with varying sizes and weights for the cleaner look.</p>
-
-        <p>We took this initial hi-fi design to Crit Studio, where we received a lot of constructive feedback on the design. Some of the feedback includes:</p>
+        <iframe class="figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FctH8HpP3n06NNF6JQi1w8L%2FIterative-Design-Crit%3Fnode-id%3D1%253A161%26scaling%3Dscale-down" allowfullscreen></iframe>
+        <p>We took this initial hi-fi design to Crit Studio, where we received a lot of constructive criticism on the design. Some of the suggestions included:</p>
         <ul>
             <li>Remove underlines on elements that are not clickable</li>
             <li>Have the name of the site in more places</li>
@@ -95,10 +105,14 @@ const Iterative = ({ data }) => {
             <li>Make it easier for a user to book a game</li>
         </ul>
 
+        <p>Thus, with this feedback in mind, we came up with another set of mockups. Here is an example of a before-and-after change - notice how we bumped up the hierarchy of the "Book Now" call-to-action, and added space for more information about the game:</p>
         <Img
             className="annotations"
-            fluid={frontmatter.interface.childImageSharp.fluid}
+            fluid={frontmatter.changes1.childImageSharp.fluid}
         />
+
+        <p>The final prototype is shown below.</p>
+        <iframe class="figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDfjXAp0tvCbh9EX3XJ32bl%2FIterative-Design-Final-Ver-DnD%3Fnode-id%3D20%253A298%26scaling%3Dscale-down" allowfullscreen></iframe>
 
 <h2>User Testing</h2>
 
@@ -207,6 +221,27 @@ export const pageQuery = graphql`
                 }
               }
             }
+            wireframe1 {
+                childImageSharp {
+                  fluid(maxWidth: 800, quality: 90) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+            }
+            wireframe2 {
+                childImageSharp {
+                  fluid(maxWidth: 800, quality: 90) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+            }
+            changes1 {
+                childImageSharp {
+                  fluid(maxWidth: 800, quality: 90) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
           }
         }
       }
