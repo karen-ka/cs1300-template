@@ -1,20 +1,20 @@
 var plugins = [{
-      plugin: require('/home/pzhang/Desktop/cs1300-template/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/pzhang/Desktop/cs1300-template/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/pzhang/Desktop/cs1300-template/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/pzhang/Desktop/cs1300-template/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/pzhang/Desktop/cs1300-template/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"CS1300 Student","short_name":"CS1300 Student","start_url":"/","background_color":"#ffffff","theme_color":"#000000","display":"minimal-ui","icon":"src/content/favicon.png"},
     },{
-      plugin: require('/home/pzhang/Desktop/cs1300-template/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      plugin: require('/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx",".md"],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":1000,"quality":80}}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
