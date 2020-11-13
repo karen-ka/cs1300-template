@@ -73,14 +73,14 @@ const Iterative = ({ data }) => {
         <StyledContentWrapper>
           <h1>{frontmatter.title}</h1>
           <h2>Background</h2>
-            <p>Iterative design is a powerful process involving prototyping, testing, analyzing, and refining the product. We wanted to put this into practice by designing an interface for Y-combinator startup <a href="https://startplaying.games/"><Underlining color="secondary" hoverColor="secondary">StartPlaying.Games</Underlining></a>, which aims to be an online marketplace for tabletop players to find games and/or game hosts.</p>
+            <p>Iterative design is a powerful process involving prototyping, testing, analyzing, and refining the product. We wanted to put this into practice by designing a web interface for Y-combinator startup <a href="https://startplaying.games/"><Underlining color="secondary" hoverColor="secondary">StartPlaying.Games</Underlining></a>, which aims to be an online marketplace for tabletop players to find games and/or game hosts. We think the users who would be most impacted by our interface would be tabletop game players and hosts since these users are the primary audience for the website.</p>
 
           <h2>Sketching and Wireframing</h2>
             <p>After getting acquainted with the startup's purpose, the first step was to create pencil sketches of main pages that would be required. Each member of our group came up with our own vision of what the site would look like and created a set of sketches.</p>
 
             <iframe class="figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5012IXgdeUDbCAdjfk780t%2FIterative-Design-Sketches" allowfullscreen></iframe>
 
-        <p>After coming up with the pencil sketches, we got together to combine our ideas and create a final wireframe - shown below.</p>
+        <p>After coming up with the pencil sketches, we got together to combine our ideas and create a final wireframe - shown below. To come up with this final wireframe, we decided to combine the best ideas from each of the 4 different designs to create 1 cohesive final design.</p>
 
         <Img
             className="annotations"
@@ -95,7 +95,7 @@ const Iterative = ({ data }) => {
 
         <h2>Mockups</h2>
 
-        <p>With our lo-fi prototype in hand, we were then ready to create a hi-fi mockup of the site. For the visual aesthetics, we envisioned a sleek design with a color palette comfortable among gamers. Thus, we primarily developed in dark mode, and used a single font throughout with varying sizes and weights for the cleaner look.</p>
+        <p>With our lo-fi prototype in hand, we were then ready to create a hi-fi mockup of the site. For the visual aesthetics, we envisioned a sleek design with a color palette comfortable among gamers. Thus, we primarily developed in dark mode, and used a single font throughout with varying sizes and weights for a cleaner look. To maintain a consistent look, we also choose to use a single highlight color, a light blue, to accent certain interface elements.</p>
         <iframe class="figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FctH8HpP3n06NNF6JQi1w8L%2FIterative-Design-Crit%3Fnode-id%3D1%253A161%26scaling%3Dscale-down" allowfullscreen></iframe>
         <p>We took this initial hi-fi design to Crit Studio, where we received a lot of constructive criticism on the design. Some of the suggestions included:</p>
         <ul>
@@ -116,7 +116,7 @@ const Iterative = ({ data }) => {
 
 <h2>User Testing</h2>
 
-<p>With our much improved hi-fi design, we decided to take the prototype to UserTesting.com, a site where real users can interact with and give feedback on the usability of the prototype. We provided each user testing instructions and asked them questions about the usage of the site. The questions are included below:</p>
+<p>With our much improved hi-fi design, we decided to take the prototype to UserTesting.com, a site where real users can interact with and give feedback on the usability of the prototype. We provided each user with testing instructions and asked them questions about the usability of the site. The questions are included below:</p>
 
 <p><b>Testing Instructions</b></p>
 <ol>
@@ -132,6 +132,13 @@ const Iterative = ({ data }) => {
 <li>What feature would you like added to the website?</li>
 <li>What did you like about the site?</li>
 <li>How difficult did you find it to book a game on a scale of 1-10, with 1 being easy and 10 being very difficult?</li>
+</ol>
+
+<p><b>Links to Full Length Testing Videos</b></p>
+<ol>
+  <li><a href="https://drive.google.com/file/d/1MxN3cTapQaHYehIE7Vlf9PqtwrLZT4r4/view?usp=sharing"><Underlining color="secondary" hoverColor="secondary">User Testing Video 1</Underlining></a></li>
+  <li><a href="https://drive.google.com/file/d/1Fzbg3XfR9gL1QDMhb2mtv-bXrchIQYGT/view?usp=sharing"><Underlining color="secondary" hoverColor="secondary">User Testing Video 2</Underlining></a></li>
+  <li><a href="https://drive.google.com/file/d/1LBSwnI3hETCpO9J4oZqz1BxsPeK2bgrR/view?usp=sharing"><Underlining color="secondary" hoverColor="secondary">User Testing Video 3</Underlining></a></li>
 </ol>
 
 <h3>Analysis of Results</h3>
