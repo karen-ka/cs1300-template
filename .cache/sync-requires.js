@@ -8,6 +8,7 @@ exports.components = {
   "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/Users/karenka/Desktop/CS/uiux/cs1300-template/node_modules/gatsby-plugin-offline/app-shell.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/karenka/Desktop/CS/uiux/cs1300-template/src/pages/404.js"))),
   "component---src-pages-abtesting-js": hot(preferDefault(require("/Users/karenka/Desktop/CS/uiux/cs1300-template/src/pages/abtesting.js"))),
+  "component---src-pages-development-js": hot(preferDefault(require("/Users/karenka/Desktop/CS/uiux/cs1300-template/src/pages/development.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/karenka/Desktop/CS/uiux/cs1300-template/src/pages/index.js"))),
   "component---src-pages-iterative-js": hot(preferDefault(require("/Users/karenka/Desktop/CS/uiux/cs1300-template/src/pages/iterative.js"))),
   "component---src-pages-persona-js": hot(preferDefault(require("/Users/karenka/Desktop/CS/uiux/cs1300-template/src/pages/persona.js"))),
